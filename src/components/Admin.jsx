@@ -7,7 +7,7 @@ const AdminDashboard = ({ user, onSignOut }) => {
   const adminData = {
     name: user.firstName || 'Admin',
     email: user.email,
-    totalStudents: 1250,
+    totalStudents: 1249,
     activeStudents: 1180,
     pendingApplications: 45,
     wellnessAlerts: 12,
